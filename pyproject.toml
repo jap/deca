@@ -11,6 +11,10 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Typing :: Typed",
 ]
+dependencies = [
+    "attrs"
+]
+
 [build-system]
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 
